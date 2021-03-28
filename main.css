@@ -12,42 +12,180 @@ body{
 }
 
 
+a{
+  color: inherit;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+
+}
+ul li{
+  list-style: none;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  font-weight: normal;
+}
+
+p{
+  margin-top: 0 ;
+}
+
+.wrapper__content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header{
+  margin: 0 auto;
+  margin-bottom: 150px ;
+  padding-top: 34px;
+}
+
+address{
+  float: right;
+  text-align: right;
+  font-style: normal;
+
+}
 
 
-header {
-  height: 120px;
+.header__container{
   position: relative;
   
+}
 
+.logo{
+  display: block;
+  float: left;
+}
 
+.menu{
+  position: absolute;
+  left: 375px;
+}
+
+.menu__item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+  
   
 }
 
-.logo {
-  display: block;
-  position: absolute;
-  top: 34px;
-  left: 0px;
+.menu__link{
+  font-size: 16px;
+  text-decoration: none;
 }
 
-.menu {
-  position: absolute;
-  top: 34px;
-  left: 207px;
+.contacts{
+  float: right;
+  font-style: normal;
+  text-align: right;
+
 }
 
-.contacts {
-  top: 56px;
-  right: 0px;
-  position: absolute;
+.contacts__phone{
+  text-decoration: none;
+  font-size: 26px;
 }
 
-.menu__item {
+.contacts__info{
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.hello{
+  width: 640px;
+  margin-bottom: 193px;
+}
+
+.hello__title{
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 18px;
+
+}
+
+.hello__text{
+  font-size: 21px;
+  margin-bottom: 76px;
+}
+
+.button{
+background: #8F00FF;
+border-radius: 5px;
+padding: 18px 40px;
+color: #FFFFFF ;
+font-weight: bold;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.news{
+  margin-bottom: 127px;
+}
+
+.title{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+}
+
+.news__list-item{
+  display: inline-block;
+  width: 362px;
+  margin-right: 27px;
+}
+  
+
+
+
+
+
+.footer{
+  margin-top: 110px;
+  padding-bottom: 67px;
+  
+
+}
+
+
+
+.footer__container{
+  position: relative;
+  
+}
+
+.footer__networks-list{
+  position: absolute;
+  right: 74px;
+  left: 702px;
+}
+
+.footer__networks-item{
   display: inline-block;
   vertical-align: middle;
-  margin-right: 40px;
+  margin-right: 10px;
 }
-.menu__link {
-  font-size: 16px;
-  text-decoration: none
+
+
+.contacts__help{
+  font-size: 11px;
 }
+
+
+  
+
+  
+
+
+
+
+
