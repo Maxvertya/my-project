@@ -12,10 +12,11 @@
 <body>
   <div class="wrapper">
     <div class="wrapper__content">
-      <div class="container">
-        <header class="header">
+
+      <header class="header">
+        <div class="header__container">
           <a href="/" class="logo">
-            <img src="#" alt="Logo picture" class="logo__picture">
+            <img src="./Quiz-box.png" alt="Logo picture" class="logo__picture">
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -34,19 +35,21 @@
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
             <div class="contacts__info">График Работы</div>
           </address>
+        </div>
 
-        </header>
-        <div class="maincontent">
-          <section class="hello">
-            <h1 class="hello__title">Интеллектуальный вечер для шумной компании</h1>
-            <div class="hello__text">Игры на любой вкус</div>
+      </header>
+      <div class="maincontent">
+        <section class="hello">
+          <h1 class="hello__title">Интеллектуальный вечер для шумной компании</h1>
+          <div class="hello__text">Игры на любой вкус</div>
 
-            <a href="#" class="button">Подробнее</a>
+          <a href="#" class="button">Подробнее</a>
 
 
 
-          </section>
-          <section class="news">
+        </section>
+        <section class="news">
+          <div class="news__container">
             <h2 class="title titile--new">Новинки недели</h2>
             <ul class="news__list">
               <li class="news__list-item">
@@ -67,8 +70,10 @@
 
                     </div>
                   </div>
-                  <p class="news__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                    значение систем массового участия</p>
+                  <div class="news__text">
+                    <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                      значение систем массового участия</p>
+                  </div>
                   <a href="#" class="button button--light">Смотреть</a>
                 </div>
               </li>
@@ -91,8 +96,11 @@
 
                     </div>
                   </div>
-                  <p class="news__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                    значение систем массового участия</p>
+                  <div class="news__text">
+
+                    <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                      значение систем массового участия</p>
+                  </div>
                   <a href="#" class="button button--light">Смотреть</a>
                 </div>
               </li>
@@ -115,69 +123,80 @@
 
                     </div>
                   </div>
-                  <p class="news__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
-                    значение систем массового участия</p>
+                  <div class="news__text">
+                    <p>Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                      значение систем массового участия</p>
+                  </div>
                   <a href="#" class="button button--light">Смотреть</a>
                 </div>
               </li>
 
             </ul>
-          </section>
-          <section class="lastgames">
-            <h2 class="title">Прошедшие игры</h2>
-            <ul class="lastgames__list">
-              <li class="lastgames__list-item">
-                <img src="#" alt="games logo" class="lastgames__list-img">
-                <div class="lastgames__description">
-                  <div class="date">1 января</div>
-                  <h5 class="lastgames__name">Новогодний квиз</h5>
-                  <p class="lastgames__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
+          </div>
+        </section>
+        <section class="lastgames">
+          <h2 class="title">Прошедшие игры</h2>
+          <ul class="lastgames__list">
+            <li class="lastgames__list-item">
+              <img src="#" alt="games logo" class="lastgames__list-img">
+              <div class="lastgames__description">
+                <div class="date">1 января</div>
+                <h5 class="lastgames__name">Новогодний квиз</h5>
+                <p class="lastgames__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
+                  Благ!</p>
+              </div>
+
+
+            </li>
+            <li class="lastgames__list-item">
+              <img src="#" alt="games logo" class="lastgames__list-img">
+              <div class="lastgames__description">
+                <div class="date">8 марта</div>
+                <h5 class="lastgames__name">Весення игра</h5>
+                <div class="lastgames__text">
+                  <p>Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
                     Благ!</p>
                 </div>
+              </div>
+            </li>
 
-
-              </li>
-              <li class="lastgames__list-item">
-                <img src="#" alt="games logo" class="lastgames__list-img">
-                <div class="lastgames__description">
-                  <div class="date">8 марта</div>
-                  <h5 class="lastgames__name">Весення игра</h5>
-                  <p class="lastgames__text">Успевайте забронировать даты. Пока еще есть места на декабрь. Удачи и всех
-                    Благ!</p>
-                </div>
-              </li>
-
+          </ul>
+          <div class="paginator">
+            <div class="paginator__display">страница 1 из 7</div>
+            <ul class="paginator__list">
+              <li class="paginator__item">1</li>
+              <li class="paginator__item">2</li>
+              <li class="paginator__item">3</li>
+              <li class="paginator__item">4</li>
+              <li class="paginator__item">5</li>
+              <li class="paginator__item">6</li>
+              <li class="paginator__item">7</li>
             </ul>
-            <div class="paginator">
-              <div class="paginator__display">страница 1 из 7</div>
-              <ul class="paginator__list">
-                <li class="paginator__item">1</li>
-                <li class="paginator__item">2</li>
-                <li class="paginator__item">3</li>
-                <li class="paginator__item">4</li>
-                <li class="paginator__item">5</li>
-                <li class="paginator__item">6</li>
-                <li class="paginator__item">7</li>
-              </ul>
-            </div>
-          </section>
-          <section class="about-us">
-            <img src="#" alt="Photo of guests" class="about-us__img">
-            <div class="about-us__descriprion">
-              <h2 class="title">О нас</h2>
-              <p class="abou-us__info">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__img">
+            <img src="" alt="">
+          </div>
+          <div class="about__description">
+            <h2 class="about__title">О нас</h2>
+            <div class="about__info">
+              <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
                 несколько
                 абзацев более менее осмысленного текста рыбы на рускком языке, а начинающему оратору отточить навык
                 публичных выступлений в домашних условиях.</p>
-              <a href="#" class="button button--dark">Подробнее</a>
             </div>
-          </section>
+
+            <a href="#" class="button button--dark">Подробнее</a>
+          </div>
+        </section>
 
 
-        </div>
-        <footer class="footer">
+      </div>
+      <footer class="footer">
+        <div class="footer__container">
           <a href="#" class="logo">
-            <img src="#" alt="Logo picture" class="logo__picture">
+            <img src="./Quiz-box.png" alt="Logo picture" class="logo__picture">
           </a>
           <nav class="menu">
             <ul class="menu__list">
@@ -196,37 +215,38 @@
             <ul class="footer__networks-list">
               <li class="footer__networks-item">
                 <a href="#" class="footer__networks-telegram">
-                  <img src="#" alt="telegram item" class="footer__telegram">
+                  <img src="./telegram.png" alt="tlg" class="footer__telegram">
                 </a>
 
 
               </li>
               <li class="footer__networks-item">
                 <a href="#" class="footer__networks-vk">
-                  <img src="#" alt="vk item" class="footer__vk">
+                  <img src="./vk.png" alt="vk" class="footer__vk">
                 </a>
               </li>
               <li class="footer__networks-item">
                 <a href="#" class="footer__networks-facebook">
-                  <img src="#" alt="facebook item" class="footer__facebook">
+                  <img src="./f.png" alt="fcb" class="footer__facebook">
                 </a>
               </li>
               <li class="footer__networks-item">
                 <a href="#" class="footer__networks-instagram">
-                  <img src="#" alt="instagram item" class="footer__instagram">
+                  <img src="./in.png" alt="inst" class="footer__instagram">
                 </a>
               </li>
             </ul>
           </nav>
-          <address class="contacts">
+          <address class="footer__contacts">
             <div class="contacts__help">Бесплатный звонок по России</div>
             <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
 
           </address>
+        </div>
 
 
-        </footer>
-      </div>
+      </footer>
+
     </div>
   </div>
 
