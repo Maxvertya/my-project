@@ -1,378 +1,144 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
-body{
-  font-family: "Open Sans" , Helvetica, sans-serif;
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #FFFFFF;
   background: #17191C;
   font-size: 16px;
   line-height: 1.42;
   -webkit-font-smoothing: antialised;
   -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  margin: 0;
+
+}
+
+.wrapper {
+  background: url("./img/nbgB77C1HAg 1.png") center top no-repeat, url("./img/56278948-888x544 2.png") center bottom 307px no-repeat;
   
+
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-left: 0
 }
 
 
-a{
-  color: inherit;
+
+
+a {
   text-decoration: none;
+  color: inherit;
 }
 
-ul{
+ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
 
 }
-ul li{
+
+ul li {
   list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-weight: normal;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-p{
-  margin-top: 0 ;
+p {
+  margin-top: 0;
 }
 
-.wrapper__content{
+.wrapper__content {
   margin: 0 auto;
-  max-width: 1170px;
+  width: 1141px;
 }
 
-header{
-  margin: 0 auto;
-  margin-bottom: 150px ;
-  padding-top: 34px;
-}
-
-address{
-  float: right;
-  text-align: right;
-  font-style: normal;
-
-}
-
-
-.header__container{
-  position: relative;
-  
-}
-
-.logo{
-  display: block;
-  float: left;
-}
-
-.menu{
-  position: absolute;
-  left: 375px;
-}
-
-.menu__item{
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 50px;
-  
-  
-}
-
-.menu__link{
-  font-size: 16px;
-  text-decoration: none;
-}
-
-.contacts{
-  float: right;
-  font-style: normal;
-  text-align: right;
-
-}
-
-.contacts__phone{
-  text-decoration: none;
-  font-size: 26px;
-}
-
-.contacts__info{
-  font-size: 13px;
-  text-decoration: underline;
-}
-
-.hello{
-  width: 640px;
-  margin-bottom: 193px;
-}
-
-.hello__title{
-  font-size: 60px;
+.button {
+  background: #8F00FF;
+  border-radius: 5px;
+  padding: 18px 40px;
+  color: #FFFFFF;
   font-weight: bold;
-  line-height: 1.1;
-  margin-bottom: 18px;
+  text-transform: uppercase;
+  border-color: ivory;
 
 }
 
-.hello__text{
-  font-size: 21px;
-  margin-bottom: 76px;
-}
-
-.button{
-background: #8F00FF;
-border-radius: 5px;
-padding: 18px 40px;
-color: #FFFFFF ;
-font-weight: bold;
-text-transform: uppercase;
-text-decoration: none;
-}
-
-.news{
-  margin-bottom: 127px;
-}
-
-.title{
-  font-size: 36px;
-  font-weight: bold;
-  margin-bottom: 51px;
-}
-
-.news__list-item{
-  min-height: 450px;
+.button:hover {
   background: #FFFFFF;
+  color: #8F00FF;
+  border-color: #8F00FF;
+  border-style: solid;
   border-radius: 5px;
-  display: inline-block;
-  margin-right: 27px;
-  width: 362px;
 }
 
-.news__list-item:last-child{
-  margin-right: 0;
-}
 
-.news__header{
-  min-height: 144px;
-  
-}
-
-.news__content{
-  padding: 33px 34px;
-  color: #000000;
-}
-
-.news__title{
-  font-weight: bold;
-  font-size: 24px;
-  
-}
-
-.news__features{
-  margin-bottom: 26px;
-}
-
-.news__feature{
-  display: inline-block;
-  vertical-align: top;
-  width: 110px;
-  margin-right: 54px;
-}
-
-.news__feature:last-child{
-  margin-right: 0;
-}
-
-.news__feature{
-  font-size: 16px;
-}
-
-.news__text{
-  margin-bottom: 25px;
-
-}
-
-.lastgames__list{
-  margin-bottom: 57px;
-}
-
-.lastgames__list-item{
-  width: 557px;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
+.button--dark {
+  background-color: #8F00FF;
   border-radius: 5px;
-  overflow: hidden;
-  margin-right: 10px;
+  border-style: solid;
 }
 
-.lastgames__list-img{
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 
-.lastgames__description{
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 25px 30px;
-  min-height: 140px;
 
-}
-  
-.date{
-  margin-bottom: 12px;
-  font-size: 14px;
-}
-
-.lastgames__name{
-  margin-bottom: 2px;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.paginator{
+.paginator {
   text-align: center;
 }
 
-.paginator__display{
+.paginator__display {
   display: inline-block;
   vertical-align: middle;
 }
 
-.paginator__list{
+.paginator__list {
   display: inline-block;
   vertical-align: middle;
 }
 
-.paginator__display{
+.paginator__display {
   margin-right: 25px;
 
 
 }
 
-paginator__item{
+paginator__item {
   display: inline-block;
   vertical-align: middle;
 
 }
 
-.paginator__link{
+.paginator__link {
   display: block;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   font-weight: bold;
   line-height: 32px;
+  position: relative;
+  text-decoration: none;
 
 }
 
-.paginator__item--active:hover{
+.paginator__item--active:hover {
   background: #8F00FF;
   border-radius: 50%;
 
 
 }
 
-.paginator__link:hover{
+.paginator__link:hover {
   background: #8F00FF;
-  
-}
-
-
-.about:before{
-  content: "";
-  display: inline-block;
-  vertical-align: top;
-  width: 489px;
-  height: 505px;
-  background: url("./img/Mask Group.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 5px;
-}
-
-.about__description{
-  background-color: #8F00FF;
-  padding: 70px 80px;
-  display: inline-block;
-  vertical-align: top;
-  width: 785px;
-  margin-left: 370px;
-  margin-top: -348px;
 
 }
-
-.about__title{
-  font-weight: bold;
-  font-size: 36px;
-  margin-bottom: 37px;
-}
-
-.about__info{
-  margin-bottom: 43px;
-}
-
-.about__info p{
-  margin-bottom: 20px;
-}
-
-.about__info p:last-child{
-  margin-bottom: 0;
-
-}
-
-
-.footer{
-  margin-top: 110px;
-  padding-bottom: 67px;
-  
-
-}
-
-
-
-.footer__container{
-  position: relative;
-  
-}
-
-.footer__networks-list{
-  position: absolute;
-  right: 74px;
-  left: 702px;
-}
-
-.footer__networks-item{
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 10px;
-  width: 36px;
-  height: 36px;
-}
-
-
-.contacts__help{
-  font-size: 11px;
-}
-
-
-  .main-page-wrapper{
-    background: url("./img/nbgB77C1HAg 1.png") center top no-repeat, url(./img/56278948-888x544\ 2.png) center bottom 53px no-repeat;
-    
-    
-  }
-
-  
-
-
-
-
-
