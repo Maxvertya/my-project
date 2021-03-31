@@ -1,0 +1,46 @@
+.about__container:before {
+  content: "";
+  display: block;
+  width: 489px;
+  height: 505px;
+  background: url("./img/Mask Group.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  margin-bottom: 0;
+}
+
+
+.about__description {
+  background-color: #8F00FF;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 70px;
+  padding-left: 81px;
+  padding-right: 202px;
+  padding-bottom: 66px;
+  width: 785px;
+  height: 455px;
+  margin-left: 352px;
+  margin-top: -409px;
+
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.about__info {
+  margin-bottom: 43px;
+}
+
+.about__info p {
+  margin-bottom: 20px;
+}
+
+.about__info p:last-child {
+  margin-bottom: 0;
+}
