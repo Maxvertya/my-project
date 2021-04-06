@@ -1,0 +1,44 @@
+footer{
+  margin-top: 110px;
+  padding-bottom: 67px;
+  margin-top: auto;
+  
+
+}
+
+
+
+.footer__container{
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.footer__networks-list{
+  /* position: absolute; */
+  right: 74px;
+  left: 702px;
+}
+
+.footer__networks-item{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
+}
+
+
+.contacts__help{
+  font-size: 11px;
+  color: #9A9A9A;
+  text-align: right;
+  font-style: normal;
+}
+
+.footer-games{
+  padding-top: 62px;
+  padding-bottom: 43px;
+}

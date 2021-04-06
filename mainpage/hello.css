@@ -1,0 +1,26 @@
+.hello{
+  margin-bottom: 193px;
+}
+
+.hello__title{
+  max-width: 640px;
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 18px;
+
+}
+
+.hello__text{
+  font-size: 21px;
+  margin-bottom: 76px;
+}
+
+
+
+/* services */ 
+
+.hello__title-services{
+  margin-bottom: 115px;
+
+}

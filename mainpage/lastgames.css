@@ -1,0 +1,51 @@
+
+
+.lastgames__list{
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lastgames__list-item{
+  width: 557px;
+  height: 392px;
+  /* display: inline-block; */
+  vertical-align: top;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  flex: 1;
+}
+
+
+.lastgames__list-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 5px;
+  padding-right: 26px;
+  padding-bottom: 0;
+  
+}
+
+.lastgames__description{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px 30px;
+  min-height: 140px;
+
+}
+
+.date{
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.lastgames__name{
+  margin-bottom: 2px;
+  font-size: 24px;
+  font-weight: bold;
+}
