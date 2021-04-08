@@ -1,9 +1,8 @@
 footer{
+  margin-top: auto;
   margin-top: 110px;
   padding-bottom: 67px;
-  margin-top: auto;
-  
-
+  position: relative;
 }
 
 

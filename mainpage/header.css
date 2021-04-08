@@ -4,13 +4,20 @@ header{
 
 }
 
-.header__container{
+
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  flex: 1; */
+  
+
+.content{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0;
   flex: 1;
-  
 }
 
 
@@ -66,7 +73,7 @@ header{
 }
 
 
-/* services */
+/* /* services */
 .header__games{
-  margin-bottom: 106px;
+  margin-bottom: 121px;
 }

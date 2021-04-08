@@ -1,7 +1,8 @@
-
-
+.maincontent__games{
+  color: #010101;
+}
 .section__games{
-  background-color: #F2F2F2;
+  background-color:#F2F2F2;
   padding-top: 119px;
 }
 
@@ -19,9 +20,6 @@
   padding-left: 16px;
 }
 
-.page__content{
-  color: #000000;
-}
 
 .section__games-item{
   display: flex;
@@ -47,4 +45,29 @@
 
 .section__games-item:first-child{
   margin-bottom: 50px;
+}
+
+.section__partners{
+  background-color: #F4F5F5;
+
+}
+
+.partners-title{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.partners__link{
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners{
+  display: flex;
+  flex-wrap: wrap;
 }

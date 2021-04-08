@@ -48,18 +48,24 @@ body, html{
   min-height: 100%;
   overflow: hidden;
   min-height: 1200px; */
-  position: relative;
-  z-index: 0;
+  /* position: relative;
+  z-index: 0; */
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper__content{
-  margin: 0 auto;
+  /* margin: 0 auto;
   width: 1141px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
   overflow: hidden;
-  min-height: 1200px;
+  min-height: 1200px; */
+  flex: 1;
+  position: relative;
 }
 
 .wrapper__top {
@@ -74,7 +80,16 @@ body, html{
   filter: grayscale(1);
   position: absolute;
   z-index: -1;
-  bottom: 147px;}
+  bottom: 147px;
+}
+
+.container{
+  max-width: 1141px;
+  margin: 0 auto;
+
+}
+
+
 
 ul {
   padding: 0;
@@ -181,7 +196,7 @@ paginator__item {
 }
 
 
-.breadcrumbs{
+.breadcrumbs__list{
   display: flex;
   margin-bottom: 15px;
   

@@ -3,7 +3,7 @@
 }
 
 
-.about__container:before {
+.about-section:before {
   content: "";
   display: block;
   width: 489px;
