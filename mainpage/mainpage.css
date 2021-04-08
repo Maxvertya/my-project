@@ -31,4 +31,20 @@
 .section__games-descriprion{
   padding-top: 2px ;
   padding-left: 56px;
+  flex: 1;
+}
+
+.section__description-text{
+  font-size: 36px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 29px;
+}
+
+.section__description-about{
+  margin-bottom: 35px;
+}
+
+.section__games-item:first-child{
+  margin-bottom: 50px;
 }
