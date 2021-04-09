@@ -1,6 +1,8 @@
 .maincontent__games{
-  color: #010101;
+color: black;
+background-color: #F4F5F5;
 }
+
 
 
 .section__games-pic{
@@ -46,6 +48,7 @@
 
 .section__partners{
   background-color: #F4F5F5;
+
 }
 
 .partners-title{
@@ -69,9 +72,10 @@
   padding-bottom: 118px;
 }
 
-.header__games{
-  background-color: black;
+/* .header__games{
+  background-color: #010101;
 }
+ */
 
 .games-content{
   margin-bottom: 70px;

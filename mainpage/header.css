@@ -76,8 +76,9 @@ header{
 /* /* services */
 .header__games{
   margin-bottom: 121px;
- background: url(../img/phonetop.png);
-}
+  max-height: 412px;
+ /* background: url(../img/phonetop.png); */
+} 
 
 .hello__title-services{
   margin-top: 107px;
