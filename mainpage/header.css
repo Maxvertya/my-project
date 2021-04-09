@@ -76,6 +76,7 @@ header{
 /* /* services */
 .header__games{
   margin-bottom: 121px;
+ background: url(../img/phonetop.png);
 }
 
 .hello__title-services{
