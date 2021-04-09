@@ -1,10 +1,7 @@
 .maincontent__games{
   color: #010101;
 }
-.section__games{
-  background-color:#F2F2F2;
-  padding-top: 119px;
-}
+
 
 .section__games-pic{
   width: 460px;
@@ -47,11 +44,6 @@
   margin-bottom: 50px;
 }
 
-.section__partners{
-  background-color: #F4F5F5;
-
-}
-
 .partners-title{
   font-size: 48px;
   font-weight: bold;
@@ -70,4 +62,13 @@
 .partners{
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 118px;
+}
+
+.header__games{
+  background-color: black;
+}
+
+.games-content{
+  margin-bottom: 70px;
 }

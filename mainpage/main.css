@@ -68,6 +68,10 @@ body, html{
   position: relative;
 }
 
+.wrapper__content-games{
+  background-color: #FFFFFF;
+}
+
 .wrapper__top {
   position: absolute;
   z-index: -1;
@@ -206,3 +210,11 @@ paginator__item {
 .breadcrumbs__item{
   margin-right: 5px;
 }
+
+.breadcrumbs__link{
+  text-decoration: underline;
+}
+
+/* .breadcrumbs__item::after{
+  content: "/";
+} */
