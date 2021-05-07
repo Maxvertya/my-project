@@ -1,0 +1,101 @@
+.section--order {
+  background: url(../img/cta22.png) center top no-repeat black;
+  background-size: cover;
+}
+
+.order__title {
+  color: white;
+}
+
+.form {
+  display: flex;
+  color: white;
+}
+.form__column {
+  flex: 1;
+  margin-right: 27px;
+}
+.form__column:last-child {
+  margin-right: 0;
+}
+.form__row {
+  display: flex;
+  margin-bottom: 27px;
+}
+.form__block {
+  flex: 1;
+  margin-right: 27px;
+}
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  width: 100%;
+  border: none;
+  padding: 19px 12px;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+.form__input:focus {
+  border-color: yellow;
+  outline: none;
+}
+.form__input--textarea {
+  height: 152px;
+  width: 450px;
+  resize: none;
+}
+
+.form__controls {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.radio {
+  display: flex;
+  cursor: pointer;
+}
+.radio__checkbox .radio__visible {
+  border-radius: 0;
+}
+.radio__checkbox .radio__visible::before {
+  content: url(../img/Vector33.png);
+}
+
+.radio__elem {
+  display: none;
+}
+.radio__elem:checked ~ .radio__visible::before {
+  display: block;
+}
+
+.radio__title {
+  margin-left: 0.625rem;
+  margin-right: 0.6875rem;
+}
+
+.radio__visible {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  -webkit-user-select: none;
+          user-select: none;
+}
+.radio__visible::before {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: url(../img/tochka.png);
+  width: 0.8125rem;
+  height: 0.8125rem;
+  border-radius: 50%;
+  display: none;
+}
+
+.form__controls {
+  margin-bottom: 1.25rem;
+}
