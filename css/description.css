@@ -1,28 +1,3 @@
-.section {
-  height: 100vh;
-  min-height: 40.75rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: black;
-}
-
-.section--description {
-  padding-top: 2.5rem;
-}
-
-.headline {
-  text-align: center;
-  margin-bottom: 3.0625rem;
-}
-
-.section__title {
-  font-size: 3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .headline__title {
   margin-bottom: 1.0625rem;
 }

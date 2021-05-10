@@ -1,15 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
-@import url(./header.css);
-@import url(./description.css);
-@import url(./normalize.css);
-@import url(./reviews.css);
-@import url(./styleform.css);
 $containerwidth:940px;
 $color:black;
-$basefontsize:18px;
+$basefontsize:16px;
+$tablets:768px;
+$phones:480px;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+/* Подключения */
+@import "./media.scss";
+@import "./wrapper.scss";
+@import "./section.scss";
+@import "./button.scss";
+@import "./header.scss";
+@import "./reviews.scss";
+@import "./description.scss";
+@import "./styleform.scss";
+@import "./hamburger.scss";
+
 
 html{
   font-size: $basefontsize;
+  @include tablets{
+    font-size: $basefontsize - 1px;
+  }
+  @include tablets{
+    font-size: $basefontsize - 2px;
+  }
+
 }
 body{
   font-family: 'Alegreya Sans', sans-serif;
@@ -74,26 +92,6 @@ img{
   max-width: 100%;
 }
 
-.btn{
-  background-color: #FEDB3F;
-  border-radius: 6.25rem;
-  color: black;
-  cursor: pointer;
-  font-weight: bold;
-  text-transform: uppercase;
-  max-height: 3.75rem;
-  margin-right: 0;
-  padding: 1.25rem 2.5625rem;
-  border: none;
-  margin-right: 0.3125rem;
-  display: inline-block;
-
-  &:hover{
-    background-color: #292929;
-    color: white;
-  }
-}
-
 .container{
   width: 95%;
   max-width: $containerwidth;
@@ -102,46 +100,8 @@ img{
 
 }
 
-.wrapper{
-  position: relative;
-  width: 100%;
-  min-height: 100%;
-  overflow: hidden;
-}
-
-.wrapper__menu{
-  position: fixed;
-  top: 20%;
-  right: 3%;
-}
-
-.wrapper__menu-item{
-  margin-bottom: 0.4375rem;
-  &--active{
-    .wrapper__menu-link{
-      border-color: white;
-    }
-  }
-}
-
-.wrapper__menu-link{
-  width: 1.125rem;
-  height: 1.125rem;
-  border-radius: 50%;
-  border: 0.0625rem solid;
-  border-color: transparent;
-  display: block;
-  position: relative;
-  &::before{
-    position: absolute;
-    top: 34%;
-    right: 31%;
-    transform: translate(-50% -50%);
-    content: "";
-    width: 0.375rem;
-    height: 0.375rem;
-    border-radius: 50%;
-    background-color: white;
-
+.hero__container{
+  @include tablets{
+    width: 100%;
   }
 }
