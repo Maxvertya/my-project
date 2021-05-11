@@ -8,10 +8,16 @@ $color: black;
 .headline__subtitle{
   color: #666666;
   padding: 0 27%;
+  @include phones{
+    padding: 0 0;
+  }
 }
 
 .benefits{
   display: flex;
+  @include phones{
+    flex-direction: column;
+  }
   &__title{
     font-weight: bold;
   }
@@ -24,6 +30,10 @@ $color: black;
   align-items: center;
   text-align: center;
   position: relative;
+  @include phones{
+    display: flex;
+    text-align: left;
+  }
 
   &:last-child{
     margin-right: 0;
@@ -31,6 +41,12 @@ $color: black;
 
   &:first-child{
     margin-left:0 ;
+  }
+}
+
+.benefits__image{
+  @include phones{
+    margin-right: 0.75rem;
   }
 }
 
