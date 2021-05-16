@@ -6,11 +6,20 @@
 
 .reviews__display-inner{
   display: flex;
+  @include tablets{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }
 
 .reviews__avatar{
   width: 15.8125rem;
   height: 16.5rem;
+  @include tablets{
+    width:8.125rem ;
+    height: 8.125rem;
+  }
 
 }
 
@@ -26,6 +35,9 @@
   justify-content: center;
   flex-direction: column;
   display: flex;
+  @include tablets{
+    margin-left: 0;
+  }
   &-title{
     font-size: 1.6875rem;
     font-weight: bold;

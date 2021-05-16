@@ -17,3 +17,11 @@
     color: white;
   }
 }
+
+.btn__reset{
+  background-color: transparent;
+  &:hover{
+    background-color: none;
+    color: white
+  }
+}

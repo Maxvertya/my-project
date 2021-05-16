@@ -11,20 +11,30 @@
 .form{
   display: flex;
   color: white;
+  @include tablets{
+    flex-direction: column;
+    padding: 0 19%;
+    @include phones{
+      padding: 0 0;
+    }
+  }
   &__column{
     flex: 1;
-    margin-right: 27px;
+    margin-right: 1.6875rem;
     &:last-child{
+      margin-right: 0;
+    }
+    @include tablets{
       margin-right: 0;
     }
   }
   &__row{
     display: flex;
-    margin-bottom: 27px;
+    margin-bottom: 1.6875rem;
   }
   &__block{
     flex: 1;
-    margin-right:  27px;
+    margin-right:  1.6875rem;
     &:last-child{
       margin-right: 0;
     }
@@ -34,27 +44,39 @@
 .form__input{
   width: 100%;
   border: none;
-  padding: 19px 12px;
-  border: 3px solid transparent;
-  border-radius: 4px;
+  padding: 1.1875rem 0.75rem;
+  border: 0.1875rem solid transparent;
+  border-radius: 0.25rem;
+  @include tablets{
+    height: 2.25rem;
+  }
   &:focus{
    border-color: yellow;
    outline: none;
   }
   &--textarea{
-    height: 152px;
-    width: 450px;
+    height: 9.5rem;
+    /* width: 28.125rem; */
     resize: none;
+    @include tablets{
+      height: 5.125rem;
+    }
   }
 }
 
 .form__controls{
   display: flex;
   flex-wrap: wrap;
+  @include phones{
+    justify-content: center;
+  }
 }
 .radio{
   display: flex;
   cursor: pointer;
+  @include phones{
+    align-items: flex-end;
+  }
   &__checkbox{
     .radio__visible{
       border-radius: 0;
@@ -90,8 +112,8 @@
 
   &::before{
     position: absolute;
-    top: 33%;
-    left: 50%;
+    top: 45%;
+    left: 45%;
     transform: translate(-50% , -50%);
     content: url(../img/tochka.png);
     width: 0.8125rem;
@@ -103,4 +125,11 @@
 
 .form__controls{
   margin-bottom: 1.25rem;
+}
+
+.form__btns{
+  @include tablets{
+    display: flex;
+    justify-content: center;
+  }
 }

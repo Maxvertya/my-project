@@ -20,6 +20,11 @@ $phones:480px;
 @import "./sprite.scss";
 
 
+
+////////// svg
+@import url(./sprite.svg);
+
+
 html{
   font-size: $basefontsize;
   @include tablets{

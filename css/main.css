@@ -96,6 +96,14 @@
   color: white;
 }
 
+.btn__reset {
+  background-color: transparent;
+}
+.btn__reset:hover {
+  background-color: none;
+  color: white;
+}
+
 .hero {
   height: 100vh;
   background: url(../img/phone1.png) center top no-repeat;
@@ -406,14 +414,14 @@
   background-color: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-}
-.benefits__image-wrapper .benefits__logo {
-  width: 3.25rem;
-  height: 4.375rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* .benefits__logo{
+    width: 3.25rem;
+    height: 4.375rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
 }
 
 .section--order {
@@ -540,8 +548,8 @@
 }
 .radio__visible::before {
   position: absolute;
-  top: 33%;
-  left: 50%;
+  top: 45%;
+  left: 45%;
   transform: translate(-50%, -50%);
   content: url(../img/tochka.png);
   width: 0.8125rem;
@@ -584,11 +592,18 @@
 
 .icon__svg {
   cursor: pointer;
-  width: 34px;
-  height: 34px;
+  width: 2.125rem;
+  height: 2.1875rem;
 }
-.icon__svg:hover {
-  fill: black;
+
+.icon__benefit {
+  cursor: pointer;
+  width: 3.25rem;
+  height: 4.375rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 html {
