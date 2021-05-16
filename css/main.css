@@ -582,6 +582,15 @@
   border-radius: 10px;
 }
 
+.icon__svg {
+  cursor: pointer;
+  width: 34px;
+  height: 34px;
+}
+.icon__svg:hover {
+  fill: black;
+}
+
 html {
   font-size: 16px;
 }
