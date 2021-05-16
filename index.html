@@ -9,7 +9,6 @@
   <title>Document</title>
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/sprite.svg">
 
 </head>
 
@@ -102,7 +101,9 @@
             <li class="benefits__item">
               <div class="benefits__image">
                 <div class="benefits__image-wrapper">
-                  <img src="./img/1.png" alt="logo" class="benefits__logo">
+                  <svg class="icon__benefit">
+                    <use xlink:href="./css/sprite.svg#why1"></use>
+                  </svg>
                 </div>
               </div>
               <div class="benefits__text">
@@ -117,7 +118,9 @@
             <li class="benefits__item">
               <div class="benefits__image">
                 <div class="benefits__image-wrapper">
-                  <img src="./img/2.png" alt="logo" class="benefits__logo">
+                  <svg class="icon__benefit">
+                    <use xlink:href="./css/sprite.svg#why2"></use>
+                  </svg>
                 </div>
               </div>
               <div class="benefits__text">
@@ -132,7 +135,9 @@
             <li class="benefits__item">
               <div class="benefits__image">
                 <div class="benefits__image-wrapper">
-                  <img src="./img/3.png" alt="logo" class="benefits__logo">
+                  <svg class="icon__benefit">
+                    <use xlink:href="./css/sprite.svg#why3"></use>
+                  </svg>
                 </div>
               </div>
               <div class="benefits__text">
@@ -258,7 +263,7 @@
               </div>
               <div class="form__btns">
                 <input type="submit" value="Отправить" class="btn btn__submit">
-                <input type="reset" value="Очистить" class="btn">
+                <input type="reset" value="Очистить" class="btn btn__reset">
               </div>
             </div>
           </form>
