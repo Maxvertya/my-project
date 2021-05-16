@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 /* Подключения */
+@import url(./sprite.svg);
 .wrapper {
   position: relative;
   width: 100%;
@@ -110,6 +111,18 @@
   background-size: cover;
   background-color: #313131;
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    background: url(../img/phone1.png) left -329px top 47px no-repeat;
+    background-color: #313131;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero {
+    background: url(../img/phone1.png) left -501px top 47px no-repeat;
+    background-color: #313131;
+  }
+}
 
 .header {
   display: flex;
@@ -204,6 +217,11 @@
   line-height: 1.1;
   margin-bottom: 1.5625rem;
   text-transform: uppercase;
+}
+@media screen and (max-width: 768px) {
+  .hero-title {
+    padding: 0 13%;
+  }
 }
 @media screen and (max-width: 480px) {
   .hero-title {

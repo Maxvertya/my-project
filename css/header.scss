@@ -3,6 +3,18 @@
   background: url(../img/phone1.png) center top no-repeat;
   background-size: cover;
   background-color: #313131;
+
+  @include tablets{
+    background: url(../img/phone1.png) left -329px top 47px no-repeat;
+    background-color:#313131 ;
+  }
+
+  @include phones{
+    background: url(../img/phone1.png) left -501px top 47px no-repeat;
+    background-color:#313131 ;
+
+  }
+
 }
 
 
@@ -95,10 +107,18 @@
   line-height: 1.1;
   margin-bottom: 1.5625rem;
   text-transform: uppercase;
+
+  @include tablets{
+    padding: 0 13%;
+  }
+  
+  
+
   @include phones{
     font-size: 2.5rem;
     padding: 0 10%;
   }
+
 }
 
 .hero__subtitle {
