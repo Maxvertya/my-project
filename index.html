@@ -8,6 +8,7 @@
 
   <title>Document</title>
   <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -153,6 +154,11 @@
     </section>
     <section class="section section--boards">
       <div class="container container--boards">
+        <div class="arrow left-arrow">
+          <a href="#">
+            <img src="./img/left.png" alt="leftArrow">
+          </a>
+        </div>
         <ul class="slider__list">
           <li class="slider__item">
             <div class="boards__img">
@@ -242,9 +248,103 @@
               </div>
 
             </div>
+          </li>
+          <li class="slider__item">
+            <div class="boards__img">
+              <img src="./img/board2.png" alt="board" class="boards__img-photo">
+            </div>
+            <div class="slider__content">
+              <div class="gear__btn gear__btn-next">
+                <a href="#" class="btn__link">
+                  <img src="./img/gear.png" alt="gear" class="btn__img">
+                </a>
+                <div class="gear__btn-menu gear__btn-menu-next ">
+                  <div class="gear__btn-list">
+                    <div class="gear__btn-icon">
+                      <svg class="icon__dscr">
+                        <use xlink:href="./css/sprite.svg#length"></use>
+                      </svg>
+                    </div>
+                    <div class="gear__btn-name">Длина доски</div>
+                    <div class="gear__btn-parametr"> от 2.5 м</div>
+                  </div>
+                  <div class="gear__btn-list">
+                    <div class="gear__btn-icon">
+                      <svg class="icon__dscr">
+                        <use xlink:href="./css/sprite.svg#life time"></use>
+                      </svg>
+                    </div>
+                    <div class="gear__btn-name">Ширина доски</div>
+                    <div class="gear__btn-parametr"> от 40 см</div>
+                  </div>
+                  <div class="gear__btn-list">
+                    <div class="gear__btn-icon">
+                      <svg class="icon__dscr">
+                        <use xlink:href="./css/sprite.svg#thickness"></use>
+                      </svg>
+                    </div>
+                    <div class="gear__btn-name">Толщина</div>
+                    <div class="gear__btn-parametr">8см</div>
+                  </div>
+                  <div class="gear__btn-list">
+                    <div class="gear__btn-icon">
+                      <svg class="icon__dscr">
+                        <use xlink:href="./css/sprite.svg#length"></use>
+                      </svg>
+                    </div>
+                    <div class="gear__btn-name">Срок службы</div>
+                    <div class="gear__btn-parametr">5 лет</div>
+                  </div>
+                  <div class="gear__btn-list">
+                    <div class="gear__btn-icon">
+                      <svg class="icon__dscr">
+                        <use xlink:href="./css/sprite.svg#width"></use>
+                      </svg>
+                    </div>
+                    <div class="gear__btn-name">Вес</div>
+                    <div class="gear__btn-parametr"> 7-8 кг</div>
+                  </div>
+                </div>
+              </div>
+              <h2 class="slider__title">Шортборд</h2>
+              <div class="slider__text">
+                <p>Самые быстрые доски для профессионалов. Размеры шортбордов позволяют быстро набирать скорость, делать различные трюки на волне, включая резкие повороты и развороты, флоатеры (проезды по самому гребню волны), различные прыжки с вращениями или без, а также катание 
+                  в трубах.
+                  
+                </p>
+              </div>
+              <div class="slider__benefits">
+                <div class="slider__benefits-content">
+                  <div class="benefits__name">
+                    Длина доски
+                  </div>
+                  <div class="benefits__dscr">
+                    от 1.5 метров
+                  </div>
+                </div>
+                <div class="slider__benefits-content">
+                  <div class="benefits__name">
+                    Ширина доски
+                  </div>
+                  <div class="benefits__dscr">
+                    от 30 сантиметров
+                  </div>
+                </div>
+              </div>
+              <div class="slider__price-item">
+                <div class="price-item__name">12000</div>
+                <a href="#" class="btn shop__btn">Заказать</a>
+              </div>
+
+            </div>
+          </li>
+        </ul>
+        <div class="arrow right-arrow">
+          <a href="#">
+            <img src="./img/right.png" alt="rightArrow">
+          </a>
+        </div>
       </div>
-      </li>
-      </ul>
     </section>
     <section class="section section--reviews">
       <div class="container">
@@ -394,6 +494,9 @@
       <li class="overlay__list-item"><a href="#" class="overlay__link">Контакты</a></li>
     </ul>
   </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
   <script src="./file.js"></script>
 </body>
+
 </html>
