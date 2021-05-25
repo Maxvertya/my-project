@@ -747,6 +747,7 @@
     max-height: 23rem;
     min-width: 21rem;
     min-height: 23rem;
+    padding: 80px 0;
   }
 }
 
@@ -762,7 +763,7 @@
 }
 
 .gear__btn-menu {
-  background-color: gray;
+  background-color: #FFFFFF;
   padding: 30px;
   position: absolute;
   width: 273px;
@@ -809,6 +810,12 @@
   transform: translate(-50%, -50%);
 }
 
+.bx-wrapper {
+  border: 0 !important;
+  background: transparent;
+  box-shadow: none;
+}
+
 .overlay {
   display: none;
   height: 100%;
@@ -833,6 +840,19 @@
   border-radius: 50%;
   right: 50px;
   top: 50px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 9999;
+}
+
+.right-arrow {
+  right: 70px;
+}
+
+.left-arrow {
+  left: 70px;
 }
 
 html {
