@@ -5,6 +5,8 @@ const wrapper = document.querySelector(".wrapper");
 const hamburger = document.querySelector(".hamburger");
 const overlay = document.querySelector(".overlay");
 const closeBtn = document.querySelector(".closeBtn");
+const gearBtnnext = document.querySelector (".gear__btn-next");
+const gearBtnMenunext = document.querySelector (".gear__btn-menu-next");
 
 
 gearBtn.addEventListener('mouseover' , function(e){
@@ -15,7 +17,26 @@ gearBtn.addEventListener('mouseover' , function(e){
 gearBtn.addEventListener('mouseout' , function(e){
   e.preventDefault();
   gearBtnMenu.style.display = 'none';
+});
+
+
+gearBtnnext.addEventListener('mouseover' , function(e){
+  e.preventDefault();
+  gearBtnMenunext.style.display = 'block';
 })
+
+gearBtnnext.addEventListener('mouseout' , function(e){
+  e.preventDefault();
+  gearBtnMenunext.style.display = 'none';
+});
+
+
+
+
+
+
+
+
 
 
 
@@ -30,3 +51,23 @@ closeBtn.addEventListener('click', e=>{
   overlay.style.display = 'none';
   wrapper.style.display = 'block';
 });
+
+
+ const slider = $('.slider__list').bxSlider({
+   pager: false,
+   controls: false
+
+});
+
+
+$(".left-arrow").click((e) => {
+  e.preventDefault();
+  slider.goToPrevSlide();
+});
+
+
+$(".right-arrow").click((e) => {
+  e.preventDefault();
+  slider.goToNextSlide();
+});
+
