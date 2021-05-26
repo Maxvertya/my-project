@@ -9,6 +9,7 @@ const gearBtnnext = document.querySelector (".gear__btn-next");
 const gearBtnMenunext = document.querySelector (".gear__btn-menu-next");
 
 
+/////////// Выпадашка
 gearBtn.addEventListener('mouseover' , function(e){
   e.preventDefault();
   gearBtnMenu.style.display = 'block';
@@ -30,16 +31,7 @@ gearBtnnext.addEventListener('mouseout' , function(e){
   gearBtnMenunext.style.display = 'none';
 });
 
-
-
-
-
-
-
-
-
-
-
+/////////// Модальное окно
 hamburger.addEventListener('click', e=>{
   e.preventDefault();
   wrapper.style.display = 'none';
@@ -52,7 +44,7 @@ closeBtn.addEventListener('click', e=>{
   wrapper.style.display = 'block';
 });
 
-
+//////////// Слайдер
  const slider = $('.slider__list').bxSlider({
    pager: false,
    controls: false
@@ -70,4 +62,8 @@ $(".right-arrow").click((e) => {
   e.preventDefault();
   slider.goToNextSlide();
 });
+
+
+
+
 
