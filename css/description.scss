@@ -1,5 +1,12 @@
 
 $color: black;
+.container__description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
 
 .headline__title{
   margin-bottom: 1.0625rem;

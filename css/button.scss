@@ -13,15 +13,16 @@
   display: inline-block;
 
   &:hover{
-    background-color: #292929;
-    color: white;
+    background-color: #FFD517;
+    color: black;
   }
 }
 
 .btn__reset{
   background-color: transparent;
+  color: white;
   &:hover{
-    background-color: none;
-    color: white
+    background-color: gray;
+    color:#FEDB3F;
   }
 }

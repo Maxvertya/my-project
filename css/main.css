@@ -93,16 +93,17 @@
   display: inline-block;
 }
 .btn:hover {
-  background-color: #292929;
-  color: white;
+  background-color: #FFD517;
+  color: black;
 }
 
 .btn__reset {
   background-color: transparent;
+  color: white;
 }
 .btn__reset:hover {
-  background-color: none;
-  color: white;
+  background-color: gray;
+  color: #FEDB3F;
 }
 
 .hero {
@@ -287,6 +288,12 @@
   }
 }
 
+.container__reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .reviews__display {
   background-color: #F8FAF9;
   padding: 3.125rem 2.8125rem 2.125rem;
@@ -383,6 +390,12 @@
   object-fit: cover;
 }
 
+.container__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .headline__title {
   margin-bottom: 1.0625rem;
 }
@@ -456,6 +469,12 @@
 .section--order {
   background: url(../img/cta22.png) center top no-repeat black;
   background-size: cover;
+}
+
+.container__order {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .order__title {
@@ -577,8 +596,8 @@
 }
 .radio__visible::before {
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 37%;
+  left: 54%;
   transform: translate(-50%, -50%);
   content: url(../img/tochka.png);
   width: 0.8125rem;
@@ -596,6 +615,11 @@
     display: flex;
     justify-content: center;
   }
+}
+
+.radio__visible-one::before {
+  top: 42%;
+  left: 50%;
 }
 
 .hamburger {
@@ -688,6 +712,7 @@
   color: black;
   font-size: 2.25rem;
   margin-top: 3.25rem;
+  text-transform: uppercase;
 }
 
 .slider__text {
@@ -766,10 +791,10 @@
   background-color: #FFFFFF;
   padding: 30px;
   position: absolute;
-  width: 273px;
-  height: 291px;
+  width: 17.0625rem;
+  height: 18.1875rem;
   position: absolute;
-  left: 90px;
+  left: 5.625rem;
   top: 0;
   border-radius: 4px;
   display: none;
@@ -795,8 +820,8 @@
 }
 
 .btn__link {
-  width: 91px;
-  height: 91px;
+  width: 5.6875rem;
+  height: 5.6875rem;
   background-color: #3A587E;
   border-radius: 4px;
   position: relative;
